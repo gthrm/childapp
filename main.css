@@ -1,0 +1,123 @@
+body {
+    position: absolute;
+    display: block;
+}
+.content {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin: 40px;
+    padding: 50px;
+}
+.convas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 875px;
+    height: 400px;
+}
+.input {
+    position: relative;    
+}
+
+#in1, #in2 {
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Добавить при ошибки в выводе */
+inputErr {
+    color: red;
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1, #p2 {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#A, #B {
+    /* border: dashed 1px #634f36; */
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    /* background: #ffa41d; */
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    margin: 0;
+    
+   }
+
+#Aerr, #Berr {
+    border-radius: 5px;
+    padding: 10px;
+    background: #ffa41d;
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    margin: 0;
+    
+   }
+   
+#AB {
+    padding: 10px;
+    /* margin: 10px; */
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+}
+
+
+#inAB {
+    padding: 10px;
+    /* margin: 10px; */
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+}
+
+input#ABErr {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+}

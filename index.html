@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Сложение чисел</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css">
+</head>
+<body> 
+    <div class="content">
+        <div class="text">
+            <p id="text"> <h1 id="A"> A </h1><h1>+</h1><h1 id="B"> B </h1> <h1> = </h1> <h1 id="AB"> ? </h1></p>
+        </div>
+
+        <div class="canvas">
+            <canvas id="c1" width="875" height="400">Канвас не поддерживается</canvas>
+        </div>
+
+        <div class="input">
+            <form onsubmit="checkNums('a'); return false">
+                <input id="in1" type='text' value="">
+            </form>
+           <form onsubmit="checkNums('b'); return false">
+                <input id="in2" type='text' value="">
+           </form>
+        </div>
+    </div> 
+   
+    <script src="main.js"></script>
+</body>
+</html>
